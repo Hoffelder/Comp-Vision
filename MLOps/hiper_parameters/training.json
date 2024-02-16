@@ -1,0 +1,50 @@
+{
+    "0": {
+        "epochs": 50,
+        "batch_size": 8,
+        "steps_per_execution": 1,
+        "tflite_max_detections": 100,
+        "var_freeze_expr": "(efficientnet|fpn_cells|resample_p6)",
+        "Done": "false"
+    },
+    "1": {
+        "epochs": 50,
+        "batch_size": 8,
+        "steps_per_execution": 1,
+        "tflite_max_detections": 500,
+        "var_freeze_expr": "(efficientnet|fpn_cells|resample_p6)",
+        "Done": "false"
+    },
+    "2": {
+        "epochs": 50,
+        "batch_size": 16,
+        "steps_per_execution": 1,
+        "tflite_max_detections": 100,
+        "var_freeze_expr": "(efficientnet|fpn_cells|resample_p6)",
+        "Done": "false"
+    },
+    "3": {
+        "epochs": 50,
+        "batch_size": 16,
+        "steps_per_execution": 1,
+        "tflite_max_detections": 500,
+        "var_freeze_expr": "(efficientnet|fpn_cells|resample_p6)",
+        "Done": "false"
+    },
+    "4": {
+        "epochs": 50,
+        "batch_size": 32,
+        "steps_per_execution": 1,
+        "tflite_max_detections": 100,
+        "var_freeze_expr": "(efficientnet|fpn_cells|resample_p6)",
+        "Done": "false"
+    },
+    "5": {
+        "epochs": 50,
+        "batch_size": 32,
+        "steps_per_execution": 1,
+        "tflite_max_detections": 500,
+        "var_freeze_expr": "(efficientnet|fpn_cells|resample_p6)",
+        "Done": "false"
+    }
+}

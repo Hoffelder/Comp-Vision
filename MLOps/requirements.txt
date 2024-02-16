@@ -1,0 +1,4 @@
+tensorflow-gpu==2.11.0
+tflite-model-maker==0.4.2
+dvc
+dvc-gdrive

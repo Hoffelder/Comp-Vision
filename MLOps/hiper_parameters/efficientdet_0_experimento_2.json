@@ -1,0 +1,98 @@
+{
+    "0": {
+        "epochs": 150,
+        "batch_size": 8,
+        "steps_per_execution": 1,
+        "tflite_max_detections": 100,
+        "var_freeze_expr": "(efficientnet|fpn_cells|resample_p6)",
+        "Done": "false"
+    },
+    "1": {
+        "epochs": 150,
+        "batch_size": 8,
+        "steps_per_execution": 1,
+        "tflite_max_detections": 800,
+        "var_freeze_expr": "(efficientnet|fpn_cells|resample_p6)",
+        "Done": "false"
+    },
+    "2": {
+        "epochs": 150,
+        "batch_size": 16,
+        "steps_per_execution": 1,
+        "tflite_max_detections": 100,
+        "var_freeze_expr": "(efficientnet|fpn_cells|resample_p6)",
+        "Done": "false"
+    },
+    "3": {
+        "epochs": 150,
+        "batch_size": 16,
+        "steps_per_execution": 1,
+        "tflite_max_detections": 800,
+        "var_freeze_expr": "(efficientnet|fpn_cells|resample_p6)",
+        "Done": "false"
+    },
+    "4": {
+        "epochs": 150,
+        "batch_size": 32,
+        "steps_per_execution": 1,
+        "tflite_max_detections": 100,
+        "var_freeze_expr": "(efficientnet|fpn_cells|resample_p6)",
+        "Done": "false"
+    },
+    "5": {
+        "epochs": 150,
+        "batch_size": 32,
+        "steps_per_execution": 1,
+        "tflite_max_detections": 800,
+        "var_freeze_expr": "(efficientnet|fpn_cells|resample_p6)",
+        "Done": "false"
+    },
+    "6": {
+        "epochs": 200,
+        "batch_size": 8,
+        "steps_per_execution": 1,
+        "tflite_max_detections": 100,
+        "var_freeze_expr": "(efficientnet|fpn_cells|resample_p6)",
+        "Done": "false"
+    },
+    "7": {
+        "epochs": 200,
+        "batch_size": 8,
+        "steps_per_execution": 1,
+        "tflite_max_detections": 800,
+        "var_freeze_expr": "(efficientnet|fpn_cells|resample_p6)",
+        "Done": "false"
+    },
+    "8": {
+        "epochs": 200,
+        "batch_size": 16,
+        "steps_per_execution": 1,
+        "tflite_max_detections": 100,
+        "var_freeze_expr": "(efficientnet|fpn_cells|resample_p6)",
+        "Done": "false"
+    },
+    "9": {
+        "epochs": 200,
+        "batch_size": 16,
+        "steps_per_execution": 1,
+        "tflite_max_detections": 800,
+        "var_freeze_expr": "(efficientnet|fpn_cells|resample_p6)",
+        "Done": "false"
+    },
+    "10": {
+        "epochs": 200,
+        "batch_size": 32,
+        "steps_per_execution": 1,
+        "tflite_max_detections": 100,
+        "var_freeze_expr": "(efficientnet|fpn_cells|resample_p6)",
+        "Done": "false"
+    },
+    "11": {
+        "epochs": 200,
+        "batch_size": 32,
+        "steps_per_execution": 1,
+        "tflite_max_detections": 800,
+        "var_freeze_expr": "(efficientnet|fpn_cells|resample_p6)",
+        "Done": "false"
+    }
+}
